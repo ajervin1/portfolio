@@ -12,7 +12,7 @@
 						<p>
 							{{ project.description }}
 						</p>
-						<a class="btn btn-primary btn-sm" href="">View Project</a>
+						<a class="btn btn-primary btn-sm" :href="project.url">View Project</a>
 					</div>
 				</article>
 			</div>
@@ -31,19 +31,19 @@
 						title: 'Youtube Converter',
 						img: require('@/images/yt.jpg'),
 						description: 'Download Youtube Videos and convert them to mp3 or mp4',
-						url: ''
+						url: 'https://ytconverter.netlify.app/'
 					},
 					{
 						title: 'Twitch Clips',
 						img: require('@/images/twitch.jpg'),
 						description: 'View all of Twitch\'s top clips',
-						url: ''
+						url: 'https://twitchy.netlify.app/'
 					},
 					{
 						title: 'Reddit Clone',
 						img: require('@/images/reddit.jpg'),
 						description: 'View Popular Subreddits and corresponding posts',
-						url: ''
+						url: 'https://ajreddit.netlify.app/'
 					}
 				]
 			}
