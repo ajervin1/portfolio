@@ -17,8 +17,8 @@
 		
 		</div>
 		<div class="right">
-			<a href="http://localhost:8080/Resume.pdf" class="btn btn-primary btn-sm">
-				<i class="fa fa-file mr-1" ></i>
+			<a href="./Resume.pdf" class="btn btn-primary btn-sm">
+				<i class="fa fa-file mr-1"></i>
 				Resume
 			</a>
 		</div>
