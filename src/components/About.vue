@@ -3,7 +3,7 @@
 		<!--Row-->
 		<section class="row">
 			<!--Text-->
-			<div class="col-7">
+			<div class="col-12 col-md-7">
 				<article class="about-text-container">
 					<h2 class="mb-1 text-primary font-weight-medium display-4 mb-0">Anthony Ervin</h2>
 					<small class="mb-2 d-inline-block font-size-lg">Software Developer</small>
@@ -17,7 +17,7 @@
 			</div>
 			<!--Text-->
 			<!--Image-->
-			<div class="col-5 d-flex justify-content-end">
+			<div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-end">
 				<div class="image-container">
 					<img class="rounded-circle shadow-lg"
 					     src="../images/profile.jpg"

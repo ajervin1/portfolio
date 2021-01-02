@@ -2,7 +2,7 @@
 	<main class="projects mb-5">
 		<h2 class="text-secondary mb-4">Projects</h2>
 		<div class="row">
-			<div class="col-4" v-for="project in projects">
+			<div class="col-12 col-md-4 mb-5" v-for="project in projects">
 				<article class="card h-100">
 					<img :src="project.img" class="card-img-top">
 					<div class="card-body">
