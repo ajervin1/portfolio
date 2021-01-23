@@ -29,21 +29,21 @@
 				projects: [
 					{
 						title: 'Youtube Converter',
-						img: require('@/images/yt.jpg'),
+						img: require('@/images/youtube.png'),
 						description: 'Download Youtube Videos and convert them to mp3 or mp4',
 						url: 'https://ytconverter.netlify.app/'
 					},
 					{
 						title: 'Twitch Clips',
-						img: require('@/images/twitch.jpg'),
+						img: require('@/images/twitch.png'),
 						description: 'View all of Twitch\'s top clips',
 						url: 'https://twitchy.netlify.app/'
 					},
 					{
-						title: 'Reddit Clone',
-						img: require('@/images/reddit.jpg'),
-						description: 'View Popular Subreddits and corresponding posts',
-						url: 'https://ajreddit.netlify.app/'
+						title: 'Tiktok Clone',
+						img: require('@/images/tiktok.png'),
+						description: 'View TikTok Posts and Search Tiktok\'s',
+						url: 'https://tiktock.netlify.app/'
 					}
 				]
 			}
