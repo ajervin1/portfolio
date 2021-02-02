@@ -44,6 +44,12 @@
 						img: require('@/images/tiktok.png'),
 						description: 'View TikTok Posts and Search Tiktok\'s',
 						url: 'https://tiktock.netlify.app/'
+					},
+					{
+						title: 'Business Landing Page',
+						img: require('@/images/landing.png'),
+						description: 'Landing Page For Local Business',
+						url: 'https://ajlanding.netlify.app/'
 					}
 				]
 			}
