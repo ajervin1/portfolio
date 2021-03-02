@@ -7,7 +7,7 @@
 				<article class="about-text-container">
 					<h2 class="mb-1 text-primary font-weight-medium display-4 mb-0">Anthony Ervin</h2>
 					<small class="mb-2 d-inline-block font-size-lg">Software Developer</small>
-					<p class="lead text-secondary line-height-h2">
+					<p class="lead line-height-h2">
 						Vue.js/Node.js Devloper based in Phoenix, Arizona. I specialize in frontend
 						development and enjoy working on applications that communicate with various
 						apis.

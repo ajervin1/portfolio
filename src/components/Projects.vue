@@ -1,9 +1,9 @@
 <template>
 	<main class="projects mb-5">
-		<h2 class="text-secondary mb-4">Projects</h2>
+		<h2 class=" mb-4">Projects</h2>
 		<div class="row">
 			<div class="col-12 col-md-4 mb-5" v-for="project in projects">
-				<article class="card h-100">
+				<article class="card bg-secondary h-100 border-dark">
 					<img :src="project.img" class="card-img-top">
 					<div class="card-body">
 						<h6>
