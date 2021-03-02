@@ -1,29 +1,26 @@
 <template>
-	<main class="projects mb-5">
-		<h2 class=" mb-4">Projects</h2>
-		<div class="row">
-			<div class="col-12 col-md-4 mb-5" v-for="project in projects">
-				<article class="card bg-secondary h-100 border-dark">
-					<img :src="project.img" class="card-img-top">
-					<div class="card-body">
-						<h6>
-							{{ project.title }}
-						</h6>
-						<p>
-							{{ project.description }}
-						</p>
-						<a class="btn btn-primary btn-sm" :href="project.url">View Project</a>
-					</div>
-				</article>
+	<section class="projects bg-secondary">
+		<div class="container">
+			<div class="projects-top text-center mb-3">
+				<h2>My Portfolio</h2>
+				<p class="text-muted">Most recent projects I have completed</p>
+			</div>
+			<div class="row">
+				<div class="col-4 mb-4" v-for="project in projects">
+					<ProjectItem :project="project"/>
+				</div>
 			</div>
 		</div>
 	
-	</main>
+	</section>
 </template>
 
 <script>
+	import ProjectItem from './ProjectItem'
+	
 	export default {
-		name: 'Projects',
+		name: 'ProjectsList',
+		components: { ProjectItem },
 		data () {
 			return {
 				projects: [

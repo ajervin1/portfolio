@@ -1,6 +1,6 @@
 <template>
-	<header class="py-4   d-md-flex">
-		<div class="logo  d-md-flex align-items-center mr-auto">
+	<header class="py-4 px-4  d-md-flex navbar-sticky navbar-stuck">
+		<div class="logo d-md-flex align-items-center mr-auto">
 			<div class="mr-4 mb-2 mb-md-0 d-flex align-items-center">
 				<i class="fa fa-envelope mr-2"></i>
 				<a class="text-primary font-weight-medium" href="mailto:anthony.ervin100@gmail.com">anthony.ervin100@gmail.com</a>

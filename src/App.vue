@@ -1,21 +1,23 @@
 <template>
-	<div id="app" class="container">
-		<NavBar  class="mb-4"/>
-		<About  class="mb-4"/>
-		<Projects />
+	<div id="app">
+		<NavBar />
+	
+			<Hero class="pt-32" />
+			<ProjectsList class="pt-7" />
+	
 	</div>
 </template>
 
 <script>
 	
 	
+
+	import Hero from './components/Hero'
+	import ProjectsList from './components/ProjectsList'
 	import NavBar from './components/NavBar'
-	import About from './components/About'
-	import Footer from './components/Footer'
-	import Projects from './components/Projects'
 	export default {
 		name: 'App',
-		components: { Projects, Footer,   About, NavBar },
+		components: { NavBar, ProjectsList, Hero },
 		data(){
 			return {
 			
