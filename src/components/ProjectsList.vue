@@ -1,12 +1,12 @@
 <template>
-	<section class="projects bg-secondary">
+	<section class="projects bg-gray-300">
 		<div class="container">
 			<div class="projects-top text-center mb-3">
 				<h2>My Portfolio</h2>
-				<p class="text-muted">Most recent projects I have completed</p>
+				<p class="text-gray-600">Most recent projects I have completed</p>
 			</div>
 			<div class="row">
-				<div class="col-4 mb-4" v-for="project in projects">
+				<div class="col-md-4 mb-4" v-for="project in projects">
 					<ProjectItem :project="project"/>
 				</div>
 			</div>
@@ -33,19 +33,19 @@
 					{
 						title: 'Twitch Clips',
 						img: require('@/images/twitch.png'),
-						description: 'View all of Twitch\'s top clips',
+						description: 'View Twitch\'s top clips',
 						url: 'https://twitchy.netlify.app/'
 					},
 					{
 						title: 'Tiktok Clone',
 						img: require('@/images/tiktok.png'),
-						description: 'View TikTok Posts and Search Tiktok\'s',
+						description: 'Search Users and view their TikTok posts',
 						url: 'https://tiktock.netlify.app/'
 					},
 					{
 						title: 'Business Landing Page',
 						img: require('@/images/landing.png'),
-						description: 'Landing Page For Local Business',
+						description: 'Landing Page For A Local Business',
 						url: 'https://ajlanding.netlify.app/'
 					}
 				]
