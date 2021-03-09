@@ -31,10 +31,10 @@
 						url: 'https://ytconverter.netlify.app/'
 					},
 					{
-						title: 'Twitch Clips',
-						img: require('@/images/twitch.png'),
-						description: 'View Twitch\'s top clips',
-						url: 'https://twitchy.netlify.app/'
+						title: 'Instagram Clone',
+						img: require('@/images/insta.png'),
+						description: 'Search Users, View User Images or Videos',
+						url: 'https://instascraper.netlify.app/'
 					},
 					{
 						title: 'Tiktok Clone',
@@ -42,6 +42,14 @@
 						description: 'Search Users and view their TikTok posts',
 						url: 'https://tiktock.netlify.app/'
 					},
+				
+					{
+						title: 'Twitch Clips',
+						img: require('@/images/twitch.png'),
+						description: 'View Twitch\'s top clips',
+						url: 'https://twitchy.netlify.app/'
+					},
+			
 					{
 						title: 'Business Landing Page',
 						img: require('@/images/landing.png'),

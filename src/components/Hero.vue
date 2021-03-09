@@ -11,7 +11,7 @@
 						by creating applications with custom functionality and intuitive user
 						experience</h2>
 					<div class="buttons">
-						<a href="./Resume.pdf" class="btn btn-primary">
+						<a href="./Resume.pdf" class="btn btn-primary btn-lg">
 							<i class="fa fa-file mr-1"></i>
 							Resume</a>
 					</div>

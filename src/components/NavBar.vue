@@ -18,7 +18,7 @@
 			
 			</div>
 			<div class="right">
-				<a href="./Resume.pdf" class="btn btn-primary btn-sm">
+				<a href="./Resume.pdf" class="btn btn-success btn-sm">
 					<i class="fa fa-file mr-1"></i>
 					Resume
 				</a>
